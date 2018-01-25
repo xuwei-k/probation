@@ -3,6 +3,7 @@ package probation
 import scala.reflect._
 import scala.reflect.macros._
 
+
 object Macros {
   
   /** the implementation of the assertion macro
