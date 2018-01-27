@@ -1,0 +1,3 @@
+[submodule "magnolia"]
+	path = magnolia
+	url = git@github.com:propensive/magnolia.git
