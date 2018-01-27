@@ -45,7 +45,7 @@ object Tests extends TestApp {
       test("simple test") { 1 + 1 }.assert(_ == 2)
       Test.report(); ()
     } }.assert(_ == """foobar""")
-  
+    ()
   }
 
 }
