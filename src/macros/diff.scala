@@ -37,3 +37,4 @@ trait Show_1 { implicit def showAnything[T]: Show[T] = _.toString }
 
 /** typeclass for showing a value as a string */
 trait Show[-T] { def show(t: T): String }
+
